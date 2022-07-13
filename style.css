@@ -94,35 +94,51 @@ main {
 
 
 /* second-section style form here */
-.second-section {
+.second-section h2,
+p {
     text-align: center;
-    clear: both;
 }
 
 .cards {
     display: flex;
-    margin-top: 20px;
+    justify-content: space-around;
+}
+
+
+
+.card-details {
+    border: 2px solid gray;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px gray;
 
 }
 
-.card {
-    margin: 20px 20px;
-    padding: 10px 20px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    box-shadow: 5px 5px 10px gray;
-    height: 300px;
-    background-color: lightgray;
+.image {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.image img {
+    width: 100%;
+}
+
+.image-details {
+    text-align: center;
+}
+
+.image-details p {
     text-align: left;
 }
 
-.card image {
-    margin: 30px;
-}
+/* third-section style form here*/
+.third-section p {
+    margin: 10px 0;
+    text-align: left;
 
-/* third-section style form here */
-.third-section {
-    margin: 100px 0;
 
 }
 
@@ -144,31 +160,36 @@ article {
 
 .blog {
     margin: 70px 40px;
-    text-align: left;
+
 
 }
 
 /* forth section style form here */
-.forth-section {
-    margin: 100px 0;
+.forth-section h2 {
+    margin: 10px 0;
     text-align: center;
 
 }
 
-.members {
+.member-card {
     display: flex;
     justify-content: space-around;
-    margin: 20px 0;
+    width: 100%;
 }
 
 .members-details {
-    width: 260px;
-    height: 300px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 8px gray;
-    margin: 5px;
-    padding: 5px;
+
+    width: 20%;
+    border: 2px solid gray;
     background-color: lightgray;
+    box-shadow: 2px 2px 8px gray;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+
+.members-iamge {
+    text-align: center;
 }
 
 .img {
@@ -177,11 +198,14 @@ article {
     border-radius: 50%;
     padding: 5px;
     margin: 0 auto;
+
+
 }
 
-.img-details {
-    padding: 0 20px;
+.img-details p {
+    padding: 0 10px;
     text-align: left;
+
 
 }
 
@@ -189,16 +213,21 @@ article {
 /* fifth-section style form here */
 .fifth-section {
     text-align: left;
-    margin: 60px 0;
+    /* margin: 60px 0; */
 }
 
-.fifth-section h2 {
+.form-details p {
+    text-align: left;
+}
+
+.fifth-section>h2 {
     text-align: center;
+    padding: 20px;
 }
 
 .width {
     width: 100%;
-    padding: 15px;
+    padding: 15px 10px;
     margin: 10px 0;
 }
 
@@ -206,16 +235,17 @@ article {
     width: 40%;
     float: left;
     padding: 15px 10px;
-    margin: 10px 0px;
+
 
 }
 
 #half1 {
-    margin-left: 20px;
+    margin: 20px 20px;
 }
 
 .pra {
     margin: 10px 0;
+    text-align: left;
 }
 
 .btn {
@@ -227,10 +257,83 @@ article {
     width: 100px;
     border: none;
     color: white;
+    text-align: left;
 
 }
 
 .btn:hover {
     background-image: linear-gradient(to left, orange, tomato);
     text-decoration: underline;
+}
+
+.left {
+    text-align: left;
+}
+
+/* sixth section style form here */
+
+.sixth-section h2,
+p {
+    text-align: center;
+    margin: 12px 30px;
+}
+
+.last-container {
+    position: relative;
+    margin: 40px auto;
+    width: 700px;
+    height: 300px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+
+}
+
+.my {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    text-align: center;
+
+
+
+
+
+
+}
+
+.email {
+    padding: 10px 30px;
+    margin: 0px;
+    border-right: none;
+}
+
+.subscribe {
+    background-color: orange;
+    padding: 10px 30px;
+    margin: 0 px;
+    border-left: none;
+
+}
+
+/* footer style design form here */
+footer {
+    height: 200px;
+    background-color: black;
+    text-align: center;
+    position: relative;
+
+
+}
+
+.div {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+
+}
+
+footer h5,
+small {
+    color: tomato;
+    font-family: 'Pacifico', cursive;
 }
